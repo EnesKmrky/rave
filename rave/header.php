@@ -22,8 +22,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             <a href="galeri.php" class="<?php if($current_page == 'galeri.php') echo 'active'; ?>">Galeri</a>
         </nav>
         <div class="auth-buttons">
-            <button>Kayıt Ol</button>
-            <button>Giriş Yap</button>
+             <a href="login.html">Giriş Yap/Kayıt Ol</a>
         </div>
         <div class="panel-buttons">
             </div>
